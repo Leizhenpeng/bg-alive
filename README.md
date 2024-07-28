@@ -7,6 +7,18 @@
 [![License][license-src]][license-href]
 
 🔄 Keep your background scripts running reliably in MV3 extensions.
+## Example
+
+easy to use
+
+```ts
+import { bgAlive } from 'bg-alive'
+bgAlive.start()
+// or custom interval time
+bgAlive.start(1000)
+// ....
+bgAlive.stop()
+```
 
 ## License
 
